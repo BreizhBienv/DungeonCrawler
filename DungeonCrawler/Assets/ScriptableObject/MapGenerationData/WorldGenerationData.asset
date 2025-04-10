@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e885d1f9aa417549a3f46bdb71e80c9, type: 3}
+  m_Name: WorldGenerationData
+  m_EditorClassIdentifier: 
+  prefabs:
+  - locationType: 6
+    locationPrefab: {fileID: 128434, guid: 7bd27893068210e40b3661f0873fb35f, type: 3}
+  - locationType: 5
+    locationPrefab: {fileID: 6167062138974328233, guid: b3205841b2c54e84e941859841c61959, type: 3}
+  - locationType: 7
+    locationPrefab: {fileID: 7308779236368096751, guid: 64d7faaa2d318d945aaae4687d1abd20, type: 3}
+  - locationType: 1
+    locationPrefab: {fileID: 3651750547384851887, guid: 1a698056ed3e1834089653973cc38735, type: 3}
+  - locationType: 2
+    locationPrefab: {fileID: 582022084675030085, guid: 90a78496edc0f3e4daa08fdccd31407c, type: 3}
+  - locationType: 3
+    locationPrefab: {fileID: 1958838389244603103, guid: 9f9ad1025caa4d84198c24b365e3fd08, type: 3}
+  floorSpace: 10
+  floorPosVariance: 0
+  roomSpace: 5
+  roomPosVariance: 0

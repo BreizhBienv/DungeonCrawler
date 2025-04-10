@@ -455,18 +455,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37b5e6dc9dff3bd468555005cf4a24ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seed: 4948
-  pathGenAlgoParams:
-    gridWidth: 7
-    gridLength: 15
-    numToGenerate: 6
-  pathGenParams:
-    roomPrefab: {fileID: 4383805687525026074, guid: d9c5037499be48a4da60fc3576695684, type: 3}
-    origin: {x: 0, y: 0, z: 0}
-    floorSpace: 7
-    floorPosVariance: 3
-    roomSpace: 5
-    roomPosVariance: 0
+  seed: 0
+  levelGenerationData: {fileID: 11400000, guid: d138f27700edba24689f15335d82fefc, type: 2}
+  worldGenerationData: {fileID: 11400000, guid: c67243284ca2b644d88f0f3de7b35260, type: 2}
 --- !u!4 &1137418857
 Transform:
   m_ObjectHideFlags: 0

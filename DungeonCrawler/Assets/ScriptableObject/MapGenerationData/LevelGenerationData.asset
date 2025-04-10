@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384eab1d7c6d045479e6d1d8a5de3659, type: 3}
+  m_Name: LevelGenerationData
+  m_EditorClassIdentifier: 
+  gridWidth: 6
+  gridLength: 15
+  numPathToGenerate: 7
+  preAssigned:
+  - {fileID: 11400000, guid: a57104929a9560a49ab382ec2cb9f15f, type: 2}
+  globalRules:
+  - {fileID: 11400000, guid: 8227878296408cd44bfcb51de919e7cc, type: 2}
+  typesRules:
+  - type: 1
+    odd: 45
+    rules: []
+  - type: 2
+    odd: 16
+    rules:
+    - {fileID: 11400000, guid: d209f359210f00140a2b040431611aff, type: 2}
+    - {fileID: 11400000, guid: 6248f1fb50508104d89a307d54d8ad43, type: 2}
+  - type: 3
+    odd: 22
+    rules: []
+  - type: 5
+    odd: 12
+    rules:
+    - {fileID: 11400000, guid: d209f359210f00140a2b040431611aff, type: 2}
+    - {fileID: 11400000, guid: 6248f1fb50508104d89a307d54d8ad43, type: 2}
+    - {fileID: 11400000, guid: 5d198024f656c1b4f83aa51e01385449, type: 2}
+  - type: 7
+    odd: 5
+    rules:
+    - {fileID: 11400000, guid: 6248f1fb50508104d89a307d54d8ad43, type: 2}
